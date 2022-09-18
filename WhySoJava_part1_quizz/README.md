@@ -1,4 +1,4 @@
 Usage:
 `python main.py`
 
-a,b,... answers are CASE SENSITIVE !
+a,b,c... answers are CASE SENSITIVE !
