@@ -1,0 +1,79 @@
+?1. What is java serialization ?
+XXConversion of the state of an object into a byte stream.
+Conversion of byte stream  into a state of an object
+I do not know
+None of the above
+
+?2. What is java deserialization ?
+XXConversion of byte stream  into a state of an object
+Conversion of the state of an object into a byte stream.
+I do not know
+None of the above
+
+
+3. How to spot java serialized object ?
+XX.ser file extention, starting bytes aced0005, base64 encoded starting bytes RO0AB
+trust your instincts
+ask fortune-teller
+None of the above
+
+?4. Potential impact of insecure deserialization ?
+XXRCE, if gadget/gadget chain was found/bruteforced, logic errors via modyfing serialized objects, if there is no server side validation
+Cryptographic failures
+Server target explosion
+None of the above
+
+?5. How to mitigate insecure deserialization ?
+XXif its not necessary: avoid i, know your frameworks and configure them accordingly to the recommendations, it its necessary whitelist what objects can be deserialized
+call a fortune teller for help
+Pray and make blood sacrifice to the Java gods
+None of the above
+
+
+?6. What is an deserialization gadget ?
+XXpiece of code which can be used to achieve rce via java deserialization
+popular inspector, toon's character
+I do not know
+None of the above
+
+?7. Must EvilGadget class be available in the classpath of the Java program to achieve RCE ? 
+XXTrue
+False
+I do not know
+None of the above
+
+?8. Must EvilGadget class be used by the Java main program to achieve RCE ?
+True
+XXFalse
+I do not know
+None of the above
+
+?9. What is the name of the tool to inspects Java libraries and classpaths for gadget chains?
+XXinspectorGadget
+ysoserial
+RMITaste
+rmiscout
+
+?10. If gadget inspector finds a gadget chain, Can an exploit ALWAYS be built from it?
+True
+XXFalse, not always ! The analysis uses some simplifying assumptions and can report false positives (gadget chains that don't actually exist)
+I do not know
+None of the above
+
+11. If no gadget chains were found by gadgetinspector, does that mean my application is safe from exploitation? 
+True
+XXFalse, the gadget inspector has a very narrow set of "sink" functions which it considers to have "interesting" side effects. This certainly doesn't mean there aren't other interesting or dangerous behaviors not in the list.
+I do not know
+None of the above
+
+12. What is the name of tool that generates payloads that exploit unsafe Java object deserialization?
+XXysoserial
+inspectorGadget
+gadgetProbe
+Inteliji
+
+13. What is the name of payload which triggers a DNS lookup during deserialization ?
+XXURLDNS
+CommonsCollections1 
+JRMPClient
+C3P0
