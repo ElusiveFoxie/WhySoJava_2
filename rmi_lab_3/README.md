@@ -1,1 +1,1 @@
-Rememeber to include CommonsCollections java path before exploitation
+Rememeber to include Commons-Collections-3.1.jar java path before exploitation
