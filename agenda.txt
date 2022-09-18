@@ -1,0 +1,16 @@
+1. Quick reminder of our knowledge, quick and easy quiz:
+2. One tool to show you which I learned about recently: https://github.com/bishopfox/gadgetprobe
+3. RMI basics 101 
+4. First vulnerability (no ssl) !
+5. rmi_lab (RMITasteExample) - (public known interface) <- show of RMI Taste
+- quick fix no 1: custom interface, but we found it on internal bitbucket/conflu and we can call remote methods
+6. challenge_1 
+7. rmi_lab (RMITasteExample) - method brtueforce <- show off RMIScout
+8. challenge2
+9. Localhost redirect showoff
+10. challenge3
+11. rmi_lab3 (custom interface vuln to RCE with object as param) <- exploit with RMITaste and others
+12. jmx_lab - quick jmx show off 
+13. jmx_lab - how to bruteforce credentials
+14. jmx_lab - exploit jmx into RCE
+15. Summary - common misconfigurations + mitigations
