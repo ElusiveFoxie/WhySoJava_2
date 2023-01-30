@@ -11,7 +11,7 @@ Summary (KeyNotes)
 
 4. What is Java interface in simple words ? - blueprint for java methods
 
-5. What to do if we can't find interface in the internet ? - search in internal confluence/bitbucket portals, ask politely developers for the interface, try to bruteforce methods and its parameters
+5. What to do if we can't find interface in the internet ? - search in internal wiki portals, ask politely developers for the interface, try to bruteforce methods and its parameters
 
 6. How to redirect attacker's localhost to server locahost ? - port forwarding (using socat for example)
 
